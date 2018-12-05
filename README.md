@@ -23,7 +23,7 @@ skill ./hello_skill.il
 ```
 
 ## Test
-* Pure `SKILL`  
+* Pure `SKILL`
 ```sh
 skill ./tests/hello_skill_test.il
 # or
