@@ -20,9 +20,11 @@ skill ./hello_skill.il
 ```
 
 ## Test
-* Pure `SKILL`
+* Pure `SKILL`  
 ```sh
-skill hello_skill_test.il
+skill ./tests/hello_skill_test.il
+# or
+skill run_tests.il
 ```
 * With `Allegro` Axl commands
 ```sh
