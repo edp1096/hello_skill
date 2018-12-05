@@ -1,7 +1,5 @@
 load("hello_skill.il")
 
-println("== Now test ==")
-
 test_world = sayWorld()
 
 test_func = "sayWorld"
