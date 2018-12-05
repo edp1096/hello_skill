@@ -11,6 +11,9 @@ procedure( sayHelloWorld(hello)
         world = sayWorld()
         printf("%s %s\n" hello, world)
     )
+
+    ; Will return t automatically
+    ; prog(() return(nil))
 )
 
 hello = "Hello"
