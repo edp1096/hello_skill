@@ -14,6 +14,8 @@ Study for basic usage or creating boilerplate in Cadence Allegro.
 ```sh
 allegro .
 # Then run in Allegro console
+sayHelloWorld("hello") [Enter]
+# Reload script in Allegro console
 11 [Enter]
 ```
 
