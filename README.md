@@ -13,8 +13,10 @@ Study for basic usage or creating boilerplate in Cadence Allegro.
     - `hello_skill_test.il` will not be loaded
 ```sh
 allegro .
+
 # Then run in Allegro console
 sayHelloWorld("hello") [Enter]
+
 # Reload script in Allegro console
 11 [Enter]
 ```
@@ -28,7 +30,9 @@ skill ./hello_skill.il
 * Pure `SKILL`
 ```sh
 skill ./tests/hello_skill_test.il
+
 # or
+
 skill run_tests.il
 ```
 * With `Allegro` Axl commands
