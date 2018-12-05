@@ -1,6 +1,6 @@
 # SKILL Practice
 
-Study for basic usage in Cadence Allegro.
+Study for basic usage or creating boilerplate in Cadence Allegro.
 
 ## Directories and Files
 * allegro.ilinit : Script loader when `Allegro` run
