@@ -13,8 +13,11 @@ axlCmdRegister("11" `loadSkillFiles)
 procedure( loadSkillFiles()
 	dir = getWorkingDir()
 	foreach(file rexMatchList("\\.il$" getDirFiles(dir))
-		printf("Loading Skill file: %s\n" file)
-		load(file)
+		; printf("Loading Skill file: %s\n" file)
+
+		if( rexMatchp("_test.il" file) == nil then
+			load(file)
+		)
 	)
 )
 

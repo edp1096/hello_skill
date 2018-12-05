@@ -1,6 +1,5 @@
 procedure( sayWorld()
     let((result)
-
         result = "world"
 
         prog(() return(result))
@@ -9,7 +8,6 @@ procedure( sayWorld()
 
 procedure( sayHelloWorld(hello)
     let((world)
-
         world = sayWorld()
         printf("%s %s\n" hello, world)
     )
@@ -17,4 +15,4 @@ procedure( sayHelloWorld(hello)
 
 hello = "Hello"
 
-sayHelloWorld(hello)
+; sayHelloWorld(hello)
