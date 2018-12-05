@@ -13,9 +13,12 @@ Study for basic usage or creating boilerplate in Cadence Allegro.
     - `hello_skill_test.il` will not be loaded
 ```sh
 allegro .
-# Then run in `Allegro console`
+# Then run in Allegro console
 11 [Enter]
-# Because function trigger is not set so, below will show nothing
+```
+
+* Because function trigger is not set so, below will show nothing
+```sh
 skill ./hello_skill.il
 ```
 
