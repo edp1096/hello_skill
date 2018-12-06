@@ -15,6 +15,7 @@ Study for basic usage or creating boilerplate in Cadence Allegro.
 allegro .
 
 # Then run in Allegro console
+skill
 sayHelloWorld("hello") [Enter]
 
 # Reload script in Allegro console
