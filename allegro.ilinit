@@ -5,7 +5,7 @@ procedure( loadSkillFiles()
 	foreach(file rexMatchList("\\.il$" getDirFiles(dir))
 		; printf("Loading Skill file: %s\n" file)
 
-		if( rexMatchp("_test.il" file) == nil then
+		if( rexMatchp("_tests.il" file) == nil then
 			load(file)
 		)
 	)
